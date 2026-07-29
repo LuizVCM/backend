@@ -10,7 +10,7 @@ const PORT = Number(process.env.PORT || '3000')
 
 // Configurar CORS para aceitar requisições do frontend
 app.use(cors({
-  origin: 'http://localhost:', // URL do seu frontend
+  origin: 'https://frontend-xi-fawn-60.vercel.app', // URL do seu frontend
   credentials: true, // Permite enviar cookies
   methods: ['GET', 'POST', 'PATCH', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
